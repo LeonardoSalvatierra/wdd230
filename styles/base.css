@@ -76,7 +76,6 @@ nav, a{
 
 nav, li{
     padding: 10px;
-    pointer-events: painted ;
     list-style-type: none;
 }
 
