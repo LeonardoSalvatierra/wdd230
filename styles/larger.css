@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 60em){
+@media only screen and (min-width: 50em){
     
     header {
         display: flex;
@@ -41,9 +41,22 @@
 
     .card {
         margin: 5px;
-        align-items: center;
     }
 
+    footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer p {
+        padding-inline: 5px;
+    }
+
+    footer img {
+        margin: 10px;
+    }
     
     
 }

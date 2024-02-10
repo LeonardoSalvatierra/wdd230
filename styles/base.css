@@ -41,10 +41,7 @@ section, a {
     color: rgb(2, 1, 19);
 }
 
-.card {
-    display: grid;
-    grid-column: auto;
-}
+
 
 h3 {
     background-color: rgb(50, 86, 133);
