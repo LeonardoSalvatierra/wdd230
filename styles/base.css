@@ -8,8 +8,8 @@ header {
     background-color: rgb(51, 86, 133);
     padding: 5px;
     display: flex;
+    justify-content:center;
     align-items: center;
-    padding-inline: 26%;
 }
 
 header img{
@@ -68,6 +68,13 @@ nav {
     padding: 20px;
 }
 
+nav, ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 0px;
+}
+
 nav, a{
     color: azure;
     font-size: 25px;
@@ -124,6 +131,12 @@ footer {
     font-family: 'roboto', sans-serif;
     font-size: 20px;
     color: azure;
+}
+
+#flag-city {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #lastModified {
