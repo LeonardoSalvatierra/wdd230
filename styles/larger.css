@@ -1,9 +1,49 @@
-@media only screen and (min-width: 37.5em){
+
+@media only screen and (min-width: 60em){
     
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+        max-height: 130px;
+    }
 
-}
+    header img {
+        width: 120px;
+        height: auto;
+    }
 
-@media only screen and (min-width: 66em){
+    nav {
+        max-height: 45px;
+    }
+
+    nav {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    nav a {
+        font-size: 1em;
+    }
+
+    #cards {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        justify-content: center;
+    }
+
+    .card {
+        margin: 5px;
+        align-items: center;
+    }
+
     
     
 }
