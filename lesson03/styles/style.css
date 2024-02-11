@@ -130,11 +130,11 @@ h2, h1{
     color: #1B365C;
 }
 
-@media only screen and (min-width: 37.5em){
+@media only screen and (min-width: 36.5em){
     nav{
         background-color: rgb(2, 1, 19);
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     nav a {
         display: block;
@@ -196,10 +196,10 @@ h2, h1{
 
 }
 
-@media only screen and (min-width: 66em){
+@media only screen and (min-width: 68em){
     nav{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         background-color: rgb(2, 1, 19);
     }
 
