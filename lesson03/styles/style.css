@@ -130,11 +130,23 @@ h2, h1{
     color: #1B365C;
 }
 
+#wireframe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#wireframe, img {
+    max-width: 34em;
+    width: 100%;
+}
+
+
 @media only screen and (min-width: 36.5em){
     nav{
         background-color: rgb(2, 1, 19);
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     nav a {
         display: block;
@@ -194,12 +206,17 @@ h2, h1{
         font-family: 'Poppins', sans-serif;
     }
 
+    #wireframe, img{
+        max-width: 64em;
+        width: 100%;
+    }
+
 }
 
 @media only screen and (min-width: 68em){
     nav{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         background-color: rgb(2, 1, 19);
     }
 
@@ -226,6 +243,16 @@ h2, h1{
         font-size: 1.6em;
         padding: 10px;
         margin: 10px;
+    }
+
+    #wireframe {
+        display: flex;
+        align-items: center;
+    }
+
+    #wireframe, img {
+        max-width: 100%;
+        width: 100%;
     }
     
 }
