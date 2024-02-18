@@ -119,11 +119,13 @@ input[type=checkbox]:checked ~ nav{
     font-size: 22px;
     font-family: arial;
     border-radius: 25px;
+    box-shadow: 2px 5px 5px #000;
 }
 .hero a:hover{
     background: rgba(0, 0, 0, 0.706);
     color: #fff;
     border-left: 5px solid rgb(127, 126, 215);
+    box-shadow: 2px 5px 5px #f2f2f2;
 }
 .cards {
     display: grid;
@@ -141,6 +143,7 @@ input[type=checkbox]:checked ~ nav{
     margin-inline: 3em;
     padding: 1em;
     font-family: arial;
+    box-shadow: 2px 5px 5px #000;
 }
 .card h2{
     border-bottom: solid 2px rgba(0, 0, 0, 0.800);
@@ -168,6 +171,7 @@ input[type=checkbox]:checked ~ nav{
     margin-inline: 3em;
     padding: 1em;
     font-family: arial;
+    box-shadow: 2px 5px 5px #000;
 }
 .company p{
     color: rgba(0, 0, 0, 0.800);
