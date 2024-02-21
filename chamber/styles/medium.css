@@ -1,0 +1,52 @@
+@media only screen and (min-width:768px) {
+    .container div label{
+        font-size: 2.5em;
+        width: 60px;
+        line-height: 60px;
+    }
+    .container div{
+        height: 60px;
+    }  
+    header > nav > img{
+        width: 3.6em;
+        height: auto;
+    }
+    .menu li a{
+        font-size: 1.4em;
+    }
+    .container nav{
+        top: 4.35em;
+    }
+    input[type=checkbox]:checked ~ nav{
+        width: 15em;
+    }
+    .hero a{
+        font-size: 2em;
+        top: 14em;
+    }
+    .social-networks img {
+        width: 3em;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-rows:70% 30%;
+    }
+    .card{
+        border-radius: 15px;
+        margin-bottom: 2em;
+        margin-inline: 1.5em;
+        padding: 1em;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        font-size: 19px;
+    }
+    .weather{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+}

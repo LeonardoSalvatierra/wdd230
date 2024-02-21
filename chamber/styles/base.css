@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* html{
-    background: linear-gradient(to top left, rgba(108, 124, 216, 0.145), rgba(4, 56, 89, 0.179));
-} */
 header > nav {
     background-color: rgb(23, 56, 76);
     width: 100%;
@@ -41,7 +38,8 @@ header > nav > img{
     display: flex;
     height: 60px;
     background: rgba(0,0,0,0.2) ;
-    box-shadow: 0 2px 5px #000;
+    box-shadow: 0 0px 8px 1px #000000b9;
+    border-radius: 10px;
 }
 .container div label{
     font-size: 2.3em;
@@ -55,6 +53,7 @@ header > nav > img{
 .container div label:hover{
     color: #fff;
     background: rgb(2, 22, 23);
+    border-radius: 10px;
 }
 input[type=checkbox]{
     display: none;
@@ -108,7 +107,6 @@ input[type=checkbox]:checked ~ nav{
 }
 .hero a{
     font-family: arial;
-    font-size: 18px;
     text-decoration: none;
     color: rgba(2, 23, 26, 0.583);
     position:absolute;
@@ -318,4 +316,25 @@ footer{
     color: rgba(222, 204, 250, 0.85);
     text-align: center;
     padding-bottom: 20px;
+}
+@media only screen and (min-width:320px) {
+    .container div label{
+        font-size: 1.8em;
+        width: 40px;
+        line-height: 40px;
+    }
+    .container div{
+        height: 40px;
+    }  
+    header > nav > img{
+        width: 2.8em;
+        height: 2.8em;
+    }
+    .menu li a{
+        font-size: 1em;
+    }
+    .container nav{
+        top: 3.73em;
+        margin-left: -25px;
+    }
 }
