@@ -9,6 +9,8 @@
     }
     header > nav > img{
         align-items: center;
+        width: 4em;
+        height: auto;
     }
     .social-networks{
         display: flex;
