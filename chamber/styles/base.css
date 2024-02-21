@@ -19,7 +19,7 @@ header > nav > img{
     width: 4em;
     height: auto;
     border-radius: 10%;
-    box-shadow: 0 0 8px rgb(2, 32, 33);
+    box-shadow: 0px 0px 5px 3px rgb(2, 32, 33);
 }
 .social-networks{
     display: flex;
@@ -64,10 +64,11 @@ input[type=checkbox]{
     top: 4.41em;
     bottom: 0;
     width: 0;
-    background: rgba(115, 174, 233, .2);
+    background: linear-gradient(to top left, rgba(21, 188, 225, 0.463), rgba(134, 133, 228, 0.491));
     box-shadow: 2px 5px 5px #000;
     overflow: hidden;
     transition: .6s ease;
+    z-index: 1;
 }
 .menu{
     list-style-type: none;
@@ -90,6 +91,7 @@ input[type=checkbox]{
     border-left: 5px solid rgb(127, 126, 215);
 }
 input[type=checkbox]:checked ~ nav{
+    
     width: 10em;
     height: 240px;
     margin-top: 0px;
@@ -144,6 +146,47 @@ input[type=checkbox]:checked ~ nav{
     padding: 1em;
     font-family: arial;
     box-shadow: 2px 5px 5px #000;
+}
+.weather {
+    border: solid 2px rgba(127, 126, 215, 0.512);
+    background: linear-gradient(to top left, rgba(151, 108, 216, 0.385), rgba(2, 91, 146, 0.419));
+    border-radius: 15px;
+    margin-bottom: 2em;
+    margin-inline: 3em;
+    padding: 1em;
+    font-family: arial;
+    box-shadow: 2px 5px 5px #000;
+    text-align: center;
+}
+.weather > h2, label, p{
+    color: rgba(0, 0, 0, 0.800);
+
+}
+input{
+    width: calc(100% - 50px);
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: solid 2px rgb(127, 126, 215,0.512);
+    margin-top: 15px;
+    background-color: #ffffffb6;
+}
+.weather button{
+    background-color: rgba(23, 56, 76, 0.888);
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100px;
+    font-size: 15px;
+    font-family: arial;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.706);
+}
+.weather button:hover{
+    background-color:#ffffffb6;
+    color: rgba(0, 0, 0, 0.800);
 }
 .card h2{
     border-bottom: solid 2px rgba(0, 0, 0, 0.800);

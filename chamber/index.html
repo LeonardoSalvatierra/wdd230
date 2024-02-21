@@ -52,11 +52,17 @@
                 <h3>Example Examp - The Examp info</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis impedit, nesciunt porro?</p>
             </div>
-            <div class="card">
+            <div class="weather">
                 <h2>Weather</h2>
-                <p>🌤 33º / Party Cloudy</p>
+                <!-- <p>🌤 33º / Party Cloudy</p>
                 <p>Humidity: 40%</p>
-                <p>Wind chill: N/A</p>
+                <p>Wind chill: N/A</p> -->
+                <input type="text" id="city" placeholder="Enter City">
+                <button onclick="getweather()">Search</button>
+                <img id="weather-icon" alt="Weather Icon">
+                <div id="temp-div"></div>
+                <div id="weather-info"></div>
+                <div id="hourly-forecast"></div>
             </div>
         </section>
         <section class="companies">
@@ -94,12 +100,14 @@
             <a href="#">Location map</a>
         </div>
         <div class="foot3">
-            <p>©2024 Rosario Chamber</p>
+            <p>&copy<span id="year"></span> Rosario Chamber</p>
             <p>Leonardo Salvatierra</p>
             <p>WDD 230 Project</p>
-            <p>Last Modification 17/02/2024 17:27</p>
+            <p>Last Modification: <span id="time"></span></p>
         </div>
+        <!-- <div>&copy;<span id="year"></span> Leonardo Salvatierra ⌨ Rosario</div>
+        <div>Last Update: <span id="time"></span> </div> -->
     </footer>
-    
+    <script src="/chamber/scripts/getinfo.js"></script>
 </body>
 </html>
