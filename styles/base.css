@@ -47,6 +47,10 @@ main, section {
     flex-direction: column;
     
 }
+picture > img{
+    width: 100%;
+    height: auto;
+}
 
 section, a {
     text-decoration: none;
@@ -163,4 +167,38 @@ footer {
 
 #lastModified {
     color: rgb(248, 198, 161)
+}
+
+@media only screen and (max-width:799px) {
+    .temple-div{
+        position: absolute;
+        top: 650px;
+        left: 10vw;
+    }
+    .temple-label{
+        background-color: rgba(13, 36, 66, 0.603);
+        color: #fff;
+        padding: 15px 25px 15px 25px;
+        border-radius: 25px;
+        box-shadow: 1px 1px 5px 2px rgba(2, 1, 19, 0.637);
+        font-size: 16px;
+    }
+    header {
+        background-color: rgb(51, 86, 133);
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    
+    header img{
+        max-width: 120px;
+        height: auto;
+        margin: 10px;
+        text-align: center;
+    }
+    h1 {
+        
+    }
 }
