@@ -18,7 +18,7 @@
 <body>
     <header>
         <nav class="nav">
-            <img src="/chamber/images/Logo-CRC.png" alt="Rosario chamber of commerce Logo.">
+            <img src="/chamber/images/Logo-CRC.webp" alt="Rosario chamber of commerce Logo.">
             <ul class="social-networks">
                 <li><a href="#"><img src="/chamber/images/face.ico" alt="Facebook icon"></a></li>
                 <li><a href="#"><img src="/chamber/images/insta.ico" alt="Instagram icon"></a></li>
@@ -42,14 +42,24 @@
     </header>
     <section class="main-section">
         <section class="hero">
-            <img src="/chamber/images/rosario-hero.png" alt="A background picture of Rosario City">
+            <picture>
+                <source media="(min-width:1200px)" srcset="images/wdd.webp">
+                <source media="(min-width:800px)" srcset="images/wdd-large.webp">
+                <source media="(min-width:450px)" srcset="images/wdd-medium.webp">
+                <source media="(max-width:450px)" srcset="images/wdd-small.webp">
+                <img src="/chamber/images/wdd.webp" alt="A background picture of Rosario City" style="width:auto;">
+            </picture>
             <h1><button><a href="#">Join the Chamber</a></button></h1>
         </section>
         <section class="cards">
             <div class="card">
-                <h2>Events</h2>
-                <h3>Example Examp - The Examp info</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis impedit, nesciunt porro?</p>
+                <h2>WEATHER NEWS</h2>
+                <h3>MEXICO DRIES UP</h3>
+                <p>Mexico dries up: warns of worsening water crisis in the country.</p>
+                <h3>TEXAS-WILDFIRES</h3>
+                <p>Firefighters face difficult weather conditions ahead of Texas blaze.</p>
+                <h3>PERU-DENGUE</h3>
+                <p>Dengue fever is on the rise in Peru in poor areas with water shortages and higher temperatures due to El Niño.</p>
             </div>
             <div class="weather">
                 <h2>Weather</h2>
@@ -84,14 +94,14 @@
     </section>
     <footer>
         <div class="foot1">
-            <img src="/chamber/images/Logo-CRC.png" alt="Rosario Chamber of commerce logo">
+            <img src="/chamber/images/Logo-CRC.webp" alt="Rosario Chamber of commerce logo">
             <div>
                 <h4>Rosario Chamber of Commerce</h4>
                 <p>Corrientes 501, Rosario, Santa fe | S2000</p>
             </div>
         </div>
         <div class="foot2">
-            <p>info@RosarioChamber.org</p>
+            <p><a href="#">info@RosarioChamber.org</a></p>
             <p>+(54) 1010-0101</p>
             <a href="#">Location map</a>
         </div>
@@ -101,8 +111,6 @@
             <p>WDD 230 Project</p>
             <p>Last Modification: <span id="time"></span></p>
         </div>
-        <!-- <div>&copy;<span id="year"></span> Leonardo Salvatierra ⌨ Rosario</div>
-        <div>Last Update: <span id="time"></span> </div> -->
     </footer>
     <script src="/chamber/scripts/getinfo.js"></script>
 </body>

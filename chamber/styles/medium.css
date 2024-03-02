@@ -20,6 +20,14 @@
     input[type=checkbox]:checked ~ nav{
         width: 15em;
     }
+    .hero{
+        width: 100%;
+        height: auto;
+    }
+    .hero img{
+        width: 100%;
+        height: auto;
+    }
     .hero a{
         font-size: 2em;
         top: 14em;

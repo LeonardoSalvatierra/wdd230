@@ -98,8 +98,10 @@ input[type=checkbox]:checked ~ nav{
     transition: .7s ease;
 }
 .hero{
+    width: 100%;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 .hero img{
     width: 100%;
@@ -143,6 +145,9 @@ input[type=checkbox]:checked ~ nav{
     padding: 1em;
     font-family: arial;
     box-shadow: 2px 5px 5px #000;
+    width: auto;
+    height: fit-content;
+    justify-content: center;
 }
 .weather {
     border: solid 2px rgba(127, 126, 215, 0.512);
@@ -277,8 +282,11 @@ footer{
     flex-direction: column;
     background: rgb(23, 56, 76);
 }
+footer p{
+    color: #fff;
+}
 .foot1 img{
-    width: 45%;
+    width: 35px;
     height: auto;
     padding-inline: 10px;
 }

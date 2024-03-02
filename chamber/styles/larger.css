@@ -78,9 +78,13 @@
         width: 0;
         transition: .6s ease;
     }
+    .hero{
+        width: fit-content;
+        height: auto;
+    }
     .hero img{
-        object-fit:cover;
-        height: 30em;
+        width: 100%;
+        height: auto;
     }
     .cards {
         display: grid;
