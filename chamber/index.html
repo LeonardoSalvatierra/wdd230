@@ -64,10 +64,12 @@
             <div class="weather">
                 <h2>Weather</h2>
                 <input type="text" id="city" placeholder="Enter City">
-                <button onclick="getWeather()">Search</button>
+                <button onclick="getWeather(), getWindChill()">Search</button>
                 <img id="weather-icon" alt="Weather Icon">
                 <div id="temp-div"></div>
                 <div id="weather-info"></div>
+                <div id="wind-speed"></div>
+                <div id="wind-chill"></div>
                 <div id="hourly-forecast"></div>
             </div>
         </section>
@@ -113,5 +115,6 @@
         </div>
     </footer>
     <script src="/chamber/scripts/getinfo.js"></script>
+    <script src="/chamber/scripts/windchill.js"></script>
 </body>
 </html>
