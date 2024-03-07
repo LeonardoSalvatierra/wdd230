@@ -39,7 +39,7 @@
         justify-content: center;
     }
 
-    .card {
+    .card-1, .card-2 {
         margin: 5px;
     }
 

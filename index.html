@@ -40,7 +40,7 @@
         </picture>
         <h2>WDD 230: Web Frontend Development</h2>
         <div id="cards">
-            <section class="card">
+            <section class="card-1">
                 <h3>Learning Activities</h3>
                 <ul>
                     <li><a href="https://www.w3schools.com/html/html_images.asp">01: not completed</a></li>
@@ -55,21 +55,28 @@
                     <li><a href="#">10: example</a></li>
                 </ul>
             </section>
-            <section class="card">
+            <section class="card-2">
                 <h3>Information</h3>
-                <div>
+                <div class="information">
                     <p>Rosario, Argentina</p>
-                    <p>🌅 33ºC - Sunshine</p>
-                    <p>Page visits: 12</p>
+                    <button onclick="getWeather(), getWindChill()">Reload weather info</button>
+                    <div class="weather">
+                        <img id="weather-icon" alt="Weather Icon">
+                        <div id="temp-div"></div>
+                        <div id="weather-info"></div>
+                    </div>
+                    <span>You have been here </span>
+                    <span id="visit-times">##NOT LOADED##</span>
+                    <span> time(s).</span>
                 </div>
             </section>
         </div>
     </main>
     <footer>
-        <p>®2024</p>
+        <p>&copy<span id="year"></span></p>
         <p>Leonardo Salvatierra</p>
         <p id="flag-city">Rosario, Argentina<img class="flag" src="images/arg.webp" alt="Argentina Flag" width="100px"></p>
-        <p id="lastModified"></p>
+        <p>Last Modification: <span id="time"></span></p>
     </footer>
     <script src="scripts/getdates.js"></script>
 </body>
