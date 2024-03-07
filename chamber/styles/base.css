@@ -131,7 +131,7 @@ input[type=checkbox]:checked ~ nav{
 }
 .cards {
     display: flex;
-    flex-direction: column;
+    flex-direction:column-reverse;
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
