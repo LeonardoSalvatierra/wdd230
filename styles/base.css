@@ -28,7 +28,7 @@ main {
     justify-content: center;
 }
 
-.temple-div{
+.temple-label{
     position: absolute;
     top: 420px;
     left: 10vw;
@@ -169,8 +169,8 @@ footer {
     color: rgb(248, 198, 161)
 }
 
-@media only screen and (max-width:799px) {
-    .temple-div{
+@media only screen and (max-width:800px) {
+    .temple-label{
         position: absolute;
         top: 650px;
         left: 10vw;
