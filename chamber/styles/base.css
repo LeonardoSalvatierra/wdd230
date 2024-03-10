@@ -571,3 +571,73 @@ iframe{
         box-shadow: 2px 2px 8px;
     }
 }
+@media only screen and (max-width:320px) {
+    .main-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .join-us{
+        width: 250px;
+        top: 100px;
+        left: 20px;
+        border: solid 2px rgba(127, 126, 215, 0.512);
+        background: linear-gradient(to top left, rgba(151, 108, 216, 0.385), rgba(2, 91, 146, 0.419));
+        border-radius: 15px;
+    }
+    .join-us img{
+        width: 50px;
+    }
+    .join-us h1{
+        padding-bottom: 5px;
+        font-size: 17px;
+    }
+    .join-us p{
+        color: rgb(23, 56, 76);
+        padding: 5px;
+        font-size: 14px;
+    }
+    .join-us button{
+        border: none;
+        margin: 0;
+        margin-top: 10px;
+    }
+    iframe{
+        width: 100%;
+    }
+    .main-section .calendar{
+        padding-inline: 20px;
+    }
+    .main-section{
+        text-align: center;
+        justify-content: center;
+    }
+    .pictures-cards{
+        padding: 25px;
+    }
+    .pictures-cards img{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .info-1 img{
+        margin-bottom: 0;
+    }
+    .info img, .info-1 img{
+        border-radius: 25px;
+        box-shadow: 2px 2px 8px;
+    }
+    .info-1 img:hover{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius: 25px;
+        box-shadow: 2px 2px 8px;
+    }
+    .info img:hover{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius: 25px;
+        box-shadow: 2px 2px 8px;
+    }
+}
