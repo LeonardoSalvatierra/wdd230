@@ -1,4 +1,4 @@
-@media only screen and (min-width:768px) {
+@media only screen and (min-width:768px) and (max-width:1200px) {
     .container div label{
         font-size: 2.5em;
         width: 60px;
@@ -56,5 +56,18 @@
         grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 3;
+    }
+    .join-us{
+        width: 250px;
+        top: 100px;
+        right: 20px;
+    }
+    .join-us img{
+        width: 90px;
+    }
+    .main-section {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 100px;
     }
 }
