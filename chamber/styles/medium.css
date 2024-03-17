@@ -70,4 +70,12 @@
         flex-direction: column;
         padding-inline: 100px;
     }
+    .form-main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .form-container{
+        width: 100%;
+        max-width: 600px;
+    }
 }

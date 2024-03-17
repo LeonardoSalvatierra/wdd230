@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Leonardo Salvatierra">
+    <meta name="description" content="this is The Chamber of Commerce Home Page of the Rosario Chamber of Commerce that I wanted to create for the course Web Frontend development.">
+    <meta property="og:title" content="Rosario Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="Logo-CRC.png">
+    <meta property="og:URL" content="https://leonardosalvatierra.github.io/wdd230/">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="icon" href="../chamber/images/favicon.ico"> 
+    <title>The Chamber of Commerce Home Page</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <img src="../chamber/images/Logo-CRC.webp" alt="Rosario chamber of commerce Logo.">
+            <ul class="social-networks">
+                <li><a href="#"><img src="../chamber/images/face.ico" alt="Facebook icon"></a></li>
+                <li><a href="#"><img src="../chamber/images/insta.ico" alt="Instagram icon"></a></li>
+                <li><a href="#"><img src="../chamber/images/twitter.ico" alt="Twitter icon"></a></li>
+            </ul>
+            <div class="container">
+                <div>
+                    <input type="checkbox" id="toggle">
+                    <label for="toggle">&#9776;</label>
+                    <nav>
+                        <ul class="menu">
+                            <li><a href="../chamber/index.html">Home</a></li>
+                            <li><a href="../chamber/discover.html">Discover</a></li>
+                            <li><a href="#">Directory</a></li>
+                            <li><a href="#">Join</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="thank-you-section">
+        <section>
+            <h1>Thank You for Your Submission!</h1>
+            <p>We appreciate you taking the time to fill out our form.</p>
+            <p>Our team will review your submission and get back to you shortly.</p>
+        </section>
+    </main>
+    <footer>
+        <div class="foot1">
+            <img src="../chamber/images/Logo-CRC.webp" alt="Rosario Chamber of commerce logo">
+            <div>
+                <h4>Rosario Chamber of Commerce</h4>
+                <p>Corrientes 501, Rosario, Santa fe | S2000</p>
+            </div>
+        </div>
+        <div class="foot2">
+            <p><a href="#">info@RosarioChamber.org</a></p>
+            <p>+(54) 1010-0101</p>
+            <a href="#">Location map</a>
+        </div>
+        <div class="foot3">
+            <p>&copy<span id="year"></span> Rosario Chamber</p>
+            <p>Leonardo Salvatierra</p>
+            <p>WDD 230 Project</p>
+            <p>Last Modification: <span id="time"></span></p>
+        </div>
+    </footer>
+    <script src="../chamber/scripts/getinfo.js"></script>
+    <script src="../chamber/scripts/windchill.js"></script>
+</body>
+</html>

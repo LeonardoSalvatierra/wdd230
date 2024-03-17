@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Leonardo Salvatierra">
+    <meta name="description" content="this is The Chamber of Commerce Home Page of the Rosario Chamber of Commerce that I wanted to create for the course Web Frontend development.">
+    <meta property="og:title" content="Rosario Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="Logo-CRC.png">
+    <meta property="og:URL" content="https://leonardosalvatierra.github.io/wdd230/">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="icon" href="../chamber/images/favicon.ico"> 
+    <title>The Chamber of Commerce Home Page</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <img src="../chamber/images/Logo-CRC.webp" alt="Rosario chamber of commerce Logo.">
+            <ul class="social-networks">
+                <li><a href="#"><img src="../chamber/images/face.ico" alt="Facebook icon"></a></li>
+                <li><a href="#"><img src="../chamber/images/insta.ico" alt="Instagram icon"></a></li>
+                <li><a href="#"><img src="../chamber/images/twitter.ico" alt="Twitter icon"></a></li>
+            </ul>
+            <div class="container">
+                <div>
+                    <input type="checkbox" id="toggle">
+                    <label for="toggle">&#9776;</label>
+                    <nav>
+                        <ul class="menu">
+                            <li><a href="../chamber/index.html">Home</a></li>
+                            <li><a href="../chamber/discover.html">Discover</a></li>
+                            <li><a href="#">Directory</a></li>
+                            <li><a href="#">Join</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="form-main">
+        <div class="form-container">
+            <form action="thankyou.html" method="get">
+                <label for="first-name">First Name:
+                    <input type="text" id="first-name" name="first-name" required>
+                </label>
+                
+                <label for="last-name">Last Name:
+                    <input type="text" id="last-name" name="last-name" required>
+                </label>
+                
+                <label for="title">Title/Position:
+                    <input type="text" id="title" name="title" required pattern="[A-Za-z\s\-]{7,}">
+                </label>
+        
+                <label for="email">Contact Email Address:
+                    <input type="email" id="email" name="email" required placeholder="example@byui.edu">
+                </label>
+                
+                <label for="phone">Mobile Phone Number:
+                    <input type="tel" id="phone" name="phone" required>
+                </label>
+        
+                <label for="organization">Business/Organization's Name:
+                    <input type="text" id="organization" name="organization" required>
+                </label>
+                
+                <label for="membership">Membership Level:
+                    <select id="membership" name="membership" required>
+                        <option value="NP Membership">NP Membership (No fee)</option>
+                        <option value="Bronze Membership">Bronze Membership</option>
+                        <option value="Silver Membership">Silver Membership</option>
+                        <option value="Gold Membership">Gold Membership</option>
+                    </select>
+                </label>
+                
+                <label for="description">Business/Organization's Description:
+                    <textarea id="description" name="description"></textarea>
+                </label>
+                
+                <input type="hidden" id="form-loaded" name="form-loaded">
+                
+                <label for="submit_button">Send the form for verification and confirmation:</label>
+                <button type="submit" id="submit_button">Submit the form</button>
+            </form>
+        </div>
+        <div>
+            <h2 class="member-h2">Membership Level Benefits</h2>
+            <div class="benefits-container">
+                <div class="membership-level">
+                    <h3>NP Membership</h3>
+                    <ul>
+                        <li>No fee</li>
+                        <li>Access to special events tailored for non-profit organizations</li>
+                        <li>Opportunities for networking and collaboration</li>
+                        <li>Discounted rates for industry conferences and workshops</li>
+                    </ul>
+                </div>
+                <div class="membership-level">
+                    <h3>Bronze Membership</h3>
+                    <ul>
+                        <li>Reasonable annual fee</li>
+                        <li>Prominent listings and featured articles on our website</li>
+                        <li>Exclusive invitations to industry seminars and panel discussions</li>
+                        <li>Discounts on advertising packages</li>
+                    </ul>
+                </div>
+                <div class="membership-level">
+                    <h3>Silver Membership</h3>
+                    <ul>
+                        <li>Competitive pricing with added value</li>
+                        <li>Access to advanced training sessions and workshops</li>
+                        <li>Promotional opportunities through our social media channels</li>
+                        <li>Discounts on premium advertising spots</li>
+                    </ul>
+                </div>
+                <div class="membership-level">
+                    <h3>Gold Membership</h3>
+                    <ul>
+                        <li>Top-tier benefits for industry leaders</li>
+                        <li>VIP access to exclusive events and networking functions</li>
+                        <li>Priority placement and visibility on our platform</li>
+                        <li>Customized advertising and sponsorship packages</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <div class="foot1">
+            <img src="../chamber/images/Logo-CRC.webp" alt="Rosario Chamber of commerce logo">
+            <div>
+                <h4>Rosario Chamber of Commerce</h4>
+                <p>Corrientes 501, Rosario, Santa fe | S2000</p>
+            </div>
+        </div>
+        <div class="foot2">
+            <p><a href="#">info@RosarioChamber.org</a></p>
+            <p>+(54) 1010-0101</p>
+            <a href="#">Location map</a>
+        </div>
+        <div class="foot3">
+            <p>&copy<span id="year"></span> Rosario Chamber</p>
+            <p>Leonardo Salvatierra</p>
+            <p>WDD 230 Project</p>
+            <p>Last Modification: <span id="time"></span></p>
+        </div>
+    </footer>
+    <script src="../chamber/scripts/getinfo.js"></script>
+    <script src="../chamber/scripts/windchill.js"></script>
+</body>
+</html>
