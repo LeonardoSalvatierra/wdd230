@@ -134,3 +134,62 @@ document.addEventListener('DOMContentLoaded', function() {
     // Establecer el valor del campo oculto con la fecha y hora actual
     formLoadedInput.value = currentDateTime;
 });
+
+const baseURL = "https://leonardosalvatierra.github.io/wdd230/chamber/index.html";
+const linksURL = "https://leonardosalvatierra.github.io/wdd230/chamber/data/members.json";
+
+async function getMembers() {
+    try {
+        const response = await fetch(linksURL);
+        const data = await response.json();
+        displayMembers(data.members);
+    } catch (error) {
+        console.error('Error fetching member data:', error);
+    }
+}
+
+getMembers();
+
+function displayMembers(members) {
+    const companyList = document.getElementById('company-list');
+
+    members.forEach(member => {
+        const card = document.createElement('div');
+        card.classList.add('card');
+
+        const img = document.createElement('img');
+        img.src = baseURL + member.image;
+        img.alt = member.name;
+
+        const h2 = document.createElement('h2');
+        h2.textContent = member.name;
+
+        const pAddress = document.createElement('p');
+        pAddress.textContent = `Address: ${member.address}`;
+
+        const pPhone = document.createElement('p');
+        pPhone.textContent = `Phone: ${member.phone}`;
+
+        const pWebsite = document.createElement('p');
+        const aWebsite = document.createElement('a');
+        aWebsite.href = member.website;
+        aWebsite.textContent = 'Website';
+        pWebsite.appendChild(aWebsite);
+
+        const pMembership = document.createElement('p');
+        pMembership.textContent = `Membership Level: ${member.membership_level}`;
+
+        const pOtherInfo = document.createElement('p');
+        pOtherInfo.textContent = member.other_information;
+
+        card.appendChild(img);
+        card.appendChild(h2);
+        card.appendChild(pAddress);
+        card.appendChild(pPhone);
+        card.appendChild(pWebsite);
+        card.appendChild(pMembership);
+        card.appendChild(pOtherInfo);
+
+        companyList.appendChild(card);
+    });
+}
