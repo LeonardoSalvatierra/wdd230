@@ -184,10 +184,13 @@ footer {
 .map iframe{
     width: 90%;
     height: 800px;
-    margin-top: 25px;
+    margin-top: 80px;
 }
 
-
+.information{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 @media only screen and (max-width:800px) {
     .temple-label{
