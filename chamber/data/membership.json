@@ -7,7 +7,7 @@
             "website": "https://www.ypf.com/",
             "image": "/images/YPF.webp",
             "membership_level": "Platinum",
-            "other_information": "YPF S.A. is an Argentine energy company dedicated to the exploration, exploitation, distribution, and commercialization of hydrocarbons."
+            "additional_info": "YPF S.A. is an Argentine energy company dedicated to the exploration, exploitation, distribution, and commercialization of hydrocarbons."
         },
         {
             "name": "MercadoLibre Inc.",
@@ -16,7 +16,7 @@
             "website": "https://www.mercadolibre.com.ar/",
             "image": "/images/mercado-libre.webp",
             "membership_level": "Platinum",
-            "other_information": "MercadoLibre, Inc. is an Argentine technology company dedicated to e-commerce in Latin America."
+            "additional_info": "MercadoLibre, Inc. is an Argentine technology company dedicated to e-commerce in Latin America."
         },
         {
             "name": "Globant S.A.",
@@ -25,7 +25,7 @@
             "website": "https://www.globant.com/",
             "image": "/images/globant.webp",
             "membership_level": "Gold",
-            "other_information": "Globant S.A. is an Argentine technology company that offers software development and digital solutions services."
+            "additional_info": "Globant S.A. is an Argentine technology company that offers software development and digital solutions services."
         },
         {
             "name": "Despegar",
@@ -34,7 +34,7 @@
             "website": "https://www.despegar.com.ar/",
             "image": "/images/despegar.webp",
             "membership_level": "Gold",
-            "other_information": "Despegar.com, Corp. is an Argentine online travel and tourism company."
+            "additional_info": "Despegar.com, Corp. is an Argentine online travel and tourism company."
         },
         {
             "name": "Clarín",
@@ -43,7 +43,7 @@
             "website": "https://www.grupoclarin.com/",
             "image": "/images/clarin.webp",
             "membership_level": "Silver",
-            "other_information": "Grupo Clarín is an Argentine multimedia group that operates in print media, television, radio, cable, Internet, and subscription television."
+            "additional_info": "Grupo Clarín is an Argentine multimedia group that operates in print media, television, radio, cable, Internet, and subscription television."
         },
         {
             "name": "Arcor",
@@ -52,7 +52,7 @@
             "website": "https://www.arcor.com.ar/",
             "image": "/images/arcor.webp",
             "membership_level": "Silver",
-            "other_information": "Arcor is an Argentine company dedicated to the production of food, especially confectionery, biscuits, and powdered foods."
+            "additional_info": "Arcor is an Argentine company dedicated to the production of food, especially confectionery, biscuits, and powdered foods."
         },
         {
             "name": "Galicia",
@@ -61,7 +61,7 @@
             "website": "https://www.bancogalicia.com/",
             "image": "/images/galicia.webp",
             "membership_level": "Bronze",
-            "other_information": "Grupo Financiero Galicia is an Argentine banking group that offers a wide range of financial products and services."
+            "additional_info": "Grupo Financiero Galicia is an Argentine banking group that offers a wide range of financial products and services."
         }
     ]
 }
