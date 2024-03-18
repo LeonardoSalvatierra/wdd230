@@ -34,13 +34,15 @@
     }
 
     #cards {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-direction: row;
         justify-content: space-evenly;
+        align-items: center;
     }
 
     .card-1, .card-2 {
-        margin: 5px;
+        margin: 25px;
+        width: 100%;
     }
 
     footer {

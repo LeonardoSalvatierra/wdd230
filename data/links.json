@@ -4,12 +4,8 @@
         "lesson": "01",
         "links": [
           {
-            "url": "../wdd230/lesson02/design-principles.html",
+            "url": "#",
             "title": "Introduction to HTML"
-          },
-          {
-            "url": "lesson01/exercises.html",
-            "title": "HTML Exercises"
           }
         ]
       },
@@ -41,10 +37,6 @@
           {
             "url": "#",
             "title": "Responsive Design"
-          },
-          {
-            "url": "#",
-            "title": "Responsive Design Exercises"
           }
         ]
       },
@@ -63,10 +55,6 @@
           {
             "url": "#",
             "title": "Version Control with Git"
-          },
-          {
-            "url": "#",
-            "title": "Git Exercises"
           }
         ]
       },
@@ -76,10 +64,6 @@
           {
             "url": "#",
             "title": "Advanced JavaScript Concepts"
-          },
-          {
-            "url": "#",
-            "title": "Advanced JavaScript Exercises"
           }
         ]
       },
@@ -89,10 +73,6 @@
           {
             "url": "#",
             "title": "AJAX and Fetch API"
-          },
-          {
-            "url": "#",
-            "title": "AJAX Exercises"
           }
         ]
       },
