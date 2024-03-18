@@ -3,7 +3,7 @@ const giturl = "https://leonardosalvatierra.github.io/wdd230/chamber/data/member
 async function getdata() {
     const response = await fetch(giturl);
     const data = await response.json();
-    displaymembers(data.companies);
+    displaymembers(data.members);
 }
 
 function displaymembers(companies) {
