@@ -135,10 +135,10 @@ document.addEventListener('DOMContentLoaded', function() {
     formLoadedInput.value = currentDateTime;
 });
 
-const baseURL = "https://leonardosalvatierra.github.io/wdd230/chamber/index.html";
-const linksURL = "https://leonardosalvatierra.github.io/wdd230/chamber/data/members.json";
+const baseURL = "https://leonardosalvatierra.github.io/wdd230/chamber/data";
 
 async function getMembers() {
+    const linksURL = baseURL + "/members.json";
     try {
         const response = await fetch(linksURL);
         const data = await response.json();
@@ -193,4 +193,5 @@ function displayMembers(members) {
         companyList.appendChild(card);
     });
 }
+
 
