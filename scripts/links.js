@@ -10,7 +10,7 @@ async function getLinks() {
 getLinks();
 
 function displayLinks(weeks) {
-    const cards = document.querySelector('#cards');
+    const cards = document.querySelector('#cards1');
     
     weeks.forEach((week) => {
         const section = document.createElement('section');

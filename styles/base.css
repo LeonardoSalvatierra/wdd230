@@ -181,6 +181,14 @@ footer {
     color: rgb(248, 198, 161)
 }
 
+.map iframe{
+    width: 90%;
+    height: 800px;
+    margin-top: 25px;
+}
+
+
+
 @media only screen and (max-width:800px) {
     .temple-label{
         position: absolute;
