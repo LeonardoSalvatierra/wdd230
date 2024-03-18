@@ -193,3 +193,4 @@ function displayMembers(members) {
         companyList.appendChild(card);
     });
 }
+
