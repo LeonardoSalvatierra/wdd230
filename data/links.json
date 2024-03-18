@@ -1,0 +1,123 @@
+{
+    "lessons": [
+      {
+        "lesson": "01",
+        "links": [
+          {
+            "url": "../wdd230/lesson02/design-principles.html",
+            "title": "Introduction to HTML"
+          },
+          {
+            "url": "lesson01/exercises.html",
+            "title": "HTML Exercises"
+          }
+        ]
+      },
+      {
+        "lesson": "02",
+        "links": [
+          {
+            "url": "../wdd230/lesson02/design-principles.html",
+            "title": "Design Principles"
+          },
+          {
+            "url": "../wdd230/lesson02/media-query.html",
+            "title": "Media query"
+          }
+        ]
+      },
+      {
+        "lesson": "03",
+        "links": [
+          {
+            "url": "../wdd230/lesson03/chamber-site-plan.html",
+            "title": "chamber site plan"
+          }
+        ]
+      },
+      {
+        "lesson": "04",
+        "links": [
+          {
+            "url": "#",
+            "title": "Responsive Design"
+          },
+          {
+            "url": "#",
+            "title": "Responsive Design Exercises"
+          }
+        ]
+      },
+      {
+        "lesson": "05",
+        "links": [
+          {
+            "url": "../wdd230/lesson05/bom.html",
+            "title": "BOM"
+          }
+        ]
+      },
+      {
+        "lesson": "06",
+        "links": [
+          {
+            "url": "#",
+            "title": "Version Control with Git"
+          },
+          {
+            "url": "#",
+            "title": "Git Exercises"
+          }
+        ]
+      },
+      {
+        "lesson": "07",
+        "links": [
+          {
+            "url": "#",
+            "title": "Advanced JavaScript Concepts"
+          },
+          {
+            "url": "#",
+            "title": "Advanced JavaScript Exercises"
+          }
+        ]
+      },
+      {
+        "lesson": "08",
+        "links": [
+          {
+            "url": "#",
+            "title": "AJAX and Fetch API"
+          },
+          {
+            "url": "#",
+            "title": "AJAX Exercises"
+          }
+        ]
+      },
+      {
+        "lesson": "09",
+        "links": [
+          {
+            "url": "../wdd230/lesson03/prophets.html",
+            "title": "Prophets"
+          }
+        ]
+      },
+      {
+        "lesson": "10",
+        "links": [
+          {
+            "url": "#",
+            "title": "Introduction to ES6"
+          },
+          {
+            "url": "#",
+            "title": "ES6 Exercises"
+          }
+        ]
+      }
+    ]
+}
+  
