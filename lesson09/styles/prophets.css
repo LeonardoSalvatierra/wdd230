@@ -1,0 +1,31 @@
+div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+section{
+    background: linear-gradient(to top left, rgba(110, 216, 108, 0.385), rgba(146, 100, 2, 0.419));
+    border: 1px solid rgb(75, 75, 9);
+}
+
+h2{
+    color: rgb(75, 75, 9);
+    font-weight: bold;
+}
+
+body{
+    background: linear-gradient(to top left, rgba(110, 216, 108, 0.141), rgba(146, 100, 2, 0.175));
+}
+
+h1{
+    color: rgb(75, 75, 9);
+    text-align: center;
+    font-weight: bold;
+}
+
+img{
+    width: 100%;
+}
