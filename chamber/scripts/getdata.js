@@ -37,7 +37,7 @@ function displaymembers(companies) {
         img.setAttribute('src', company.image);
         img.setAttribute('alt', `This is ${company.name}`);
         img.setAttribute('loading', 'lazy');
-        img.setAttribute('width', '240');
+        img.setAttribute('width', 'auto');
         img.setAttribute('height', '240');
         img.style.padding = "50px";
 
@@ -57,4 +57,39 @@ function displaymembers(companies) {
     });
 }
 
+function changeviewlist() {
+    const htmlnamee = document.URL.substring(document.URL.lastIndexOf("/") + 1)
+    if (htmlnamee == "directory.html"){
+    const bttnh = document.querySelector("#hbl");
+    const bttnv = document.querySelector("#vbl");
+    const main = document.querySelector("#company-list");
+
+    bttnh.addEventListener('click', function () {
+        if (window.getComputedStyle(main).getPropertyValue('display') === 'flex') {
+            main.style.display = "flex";
+            main.style.flexDirection = "column";
+            main.style.textAlign = "center";
+        }else {
+            main.style.display = "flex";
+            main.style.flexDirection = "column";
+            main.style.textAlign = "center";
+        }
+    });
+
+    bttnv.addEventListener('click', function () {
+        if (window.getComputedStyle(main).getPropertyValue('display') === 'grid') {
+            main.style.display = "grid";
+            main.style.gridTemplateColumns = "repeat(auto-fit, minmax(320px, 1fr))";
+            main.style.gap = "15px";
+        }else {
+            main.style.display = "grid";
+            main.style.gridTemplateColumns = "repeat(auto-fit, minmax(320px, 1fr))";
+            main.style.gap = "15px";
+        }
+
+    });
+}}
+
 getdata();
+
+changeviewlist();
