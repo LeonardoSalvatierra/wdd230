@@ -197,7 +197,7 @@
     .hero a{
         top: 330px;
     }
-    
+
     .hero img{
         width: 100%;
         height: auto;
@@ -321,6 +321,18 @@
     }
     .form-container{
         width: 600px;
+    }
+
+    .banner picture{
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        right: 10%;
+    }
+    .close-btn {
+        top: 1.8%;
+        left: 48%;
+        font-size: 70px;
     }
     
 }

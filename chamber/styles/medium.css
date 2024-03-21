@@ -78,4 +78,21 @@
         width: 100%;
         max-width: 600px;
     }
+
+    /* BANNER */
+
+    .close-btn {
+        top: 5%;
+        left: 48%;
+        font-size: 50px;
+    }
+
+
+
+    .banner picture{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        right: 10%;
+    }
 }

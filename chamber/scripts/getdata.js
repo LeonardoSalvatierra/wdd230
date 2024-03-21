@@ -93,3 +93,4 @@ function changeviewlist() {
 getdata();
 
 changeviewlist();
+
