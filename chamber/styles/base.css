@@ -164,7 +164,7 @@ input[type=checkbox]:checked ~ nav{
     color: rgba(0, 0, 0, 0.800);
 
 }
-input{
+#city{
     width: calc(100% - 50px);
     padding: 8px;
     box-sizing: border-box;

@@ -193,6 +193,11 @@
         width: fit-content;
         height: auto;
     }
+
+    .hero a{
+        top: 330px;
+    }
+    
     .hero img{
         width: 100%;
         height: auto;
