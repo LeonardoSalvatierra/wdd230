@@ -1,4 +1,4 @@
-const giturl = "https://leonardosalvatierra.github.io/wdd230/chamber/data/membership.json";
+const giturl = "https://leonardosalvatierra.github.io/wdd230/chamber/data/members.json";
 
 async function getdata() {
     const response = await fetch(giturl);
