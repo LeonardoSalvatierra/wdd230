@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Leonardo Salvatierra">
-    <meta name="description" content="this is The Chamber of Commerce Home Page of the Rosario Chamber of Commerce that I wanted to create for the course Web Frontend development.">
-    <meta property="og:title" content="Rosario Chamber of Commerce">
+    <meta name="description" content="this is The Chamber of Commerce Home Page of the Rosario Chamber of Commerce that I wanted to create for the course Web Frontend development 1.">
+    <meta property="og:title" content="Rosario Chamber of Commerce - Fostering growth and connections for local businesses, providing support and opportunities in the dynamic Rosario community.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="logo-rcr.webp">
-    <meta property="og:URL" content="https://leonardosalvatierra.github.io/wdd230/">
+    <meta property="og:image" content="https://leonardosalvatierra.github.io/wdd230/chamber/images/logo-rcr.webp">
+    <meta property="og:URL" content='https://leonardosalvatierra.github.io/wdd230/chamber'>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -60,18 +60,34 @@
                     <source media="(max-width:450px)" srcset="../chamber/images/rosario-hero-400px.webp">
                     <img src="../chamber/images/rosario-hero.webp" alt="A background picture of Rosario City">
                 </picture>
-                <h1><a href="../chamber/join.html">Join the Chamber</a></h1>
+                <h1>The Rosario Chamber of Commerce</h1>
+                <a href="../chamber/join.html">Join the Chamber</a>
             </section>
             <section class="cards">
                 <div>
                     <div class="card">
                         <h2>WEATHER NEWS</h2>
-                        <h3>MEXICO DRIES UP</h3>
-                        <p>Mexico dries up: warns of worsening water crisis in the country.</p>
-                        <h3>TEXAS-WILDFIRES</h3>
-                        <p>Firefighters face difficult weather conditions ahead of Texas blaze.</p>
-                        <h3>PERU-DENGUE</h3>
-                        <p>Dengue fever is on the rise in Peru in poor areas with water shortages and higher temperatures due to El Niño.</p>
+                        <div class="weather-card1">
+                            <h3>ROSARIO DRIES UP</h3>
+                            <picture class="weather-news">
+                                <img src="../chamber/images/ros-dry.webp" alt="Rosario dries up, a picture of desert">
+                            </picture>
+                            <p>Rosario dries up: warns of worsening water crisis in the country.</p>
+                        </div>
+                        <div class="weather-card2">
+                            <h3>ROSARIO ON FIRE</h3>
+                            <picture class="weather-news">
+                            <img src="../chamber/images/ros-fire.webp" alt="a picture of the strange fire that appears on the islands">
+                            </picture>
+                            <p>the islands of rosario are on fire, nobody knows how they started, the whole city is angry with this situation.</p>
+                        </div>
+                        <div class="weather-card3">
+                            <h3>ROSARIO WITH DENGUE</h3>
+                            <picture class="weather-news">
+                            <img src="../chamber/images/ros-dengue.webp" alt="Rosario is fighting againts the dengue, its a picture of a park of rosario being fumigated">
+                            </picture>
+                            <p>Dengue fever is on the rise in rosario because of the higher temperatures and humidity.</p>
+                        </div>
                     </div>
                     <div class="card">
                         <span>You have been here </span>
@@ -81,14 +97,15 @@
                 </div>
                 <div class="weather">
                     <h2>Weather</h2>
-                    <input type="text" id="city" placeholder="Enter City">
-                    <button onclick="getWeather(), getWindChill()">Search</button>
-                    <img id="weather-icon" alt="Weather Icon">
+                    <!-- <input type="text" id="city" placeholder="Enter City"> -->
+                    <!-- <button onclick="getWeather(), getWindChill()">Search</button> -->
+                    <img id="weather-icon" alt="Weather Icon" src="#">
                     <div id="temp-div"></div>
                     <div id="weather-info"></div>
                     <div id="wind-speed"></div>
                     <div id="wind-chill"></div>
                     <div id="hourly-forecast"></div>
+                    <img id="weather-image" alt="image of the weather acording to the weather info" src='#'>
                 </div>
             </section>
             <section class="companies">
@@ -136,5 +153,7 @@
     </footer>
     <script src="../chamber/scripts/getinfo.js"></script>
     <script src="../chamber/scripts/windchill.js"></script>
+    <script src="../chamber/scripts/visits.js"></script>
+    <script src="../chamber/scripts/banner.js"></script>
 </body>
 </html>

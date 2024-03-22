@@ -118,7 +118,7 @@ input[type=checkbox]:checked ~ nav{
     width: 60%;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 22px;
+    font-size: 30px;
     font-family: arial;
     border-radius: 25px;
     box-shadow: 2px 5px 5px #000;
@@ -129,12 +129,25 @@ input[type=checkbox]:checked ~ nav{
     border-left: 5px solid rgb(127, 126, 215);
     box-shadow: 2px 5px 5px #f2f2f2;
 }
+.hero h1{
+    z-index: 1;
+    position: absolute;
+    top: 65px;
+    background: #c2f8f980;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(2, 22, 23);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 .cards {
     display: flex;
     flex-direction:column-reverse;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
+    width: 100%;
 }
 .card{
     border: solid 2px rgba(127, 126, 215, 0.512);
@@ -148,6 +161,31 @@ input[type=checkbox]:checked ~ nav{
     width: auto;
     height: fit-content;
     justify-content: center;
+}
+.weather-news img{
+    max-width: 100%;
+    border-radius: 15px;
+    z-index: 1;
+}
+.weather-card1, .weather-card2, .weather-card3{
+    box-shadow: 2px 2px 10px #000;
+    padding: 10px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+.weather-card3{
+    z-index: 100;
+    background: linear-gradient(to top left, rgba(151, 108, 216, 0.385), rgba(2, 91, 146, 0.419));
+    
+}
+.weather-card2{
+    z-index: 50;
+    background: linear-gradient(to top left, rgba(151, 108, 216, 0.385), rgba(2, 91, 146, 0.419));
+}
+.weather-card1{
+    z-index: 1;
+    background: linear-gradient(to top left, rgba(151, 108, 216, 0.385), rgba(2, 91, 146, 0.419));
 }
 .weather {
     border: solid 2px rgba(127, 126, 215, 0.512);
@@ -228,6 +266,11 @@ input[type=checkbox]:checked ~ nav{
 #hourly-heading{
     color: #fff;
     margin-top: 10px;
+}
+#weather-image{
+    margin: 25px;
+    border-radius: 15px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.706);
 }
 .card h2, .weather h2{
     border-bottom: solid 2px rgba(0, 0, 0, 0.800);
