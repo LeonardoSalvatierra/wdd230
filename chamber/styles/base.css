@@ -89,6 +89,11 @@ input[type=checkbox]{
     color: #fff;
     border-left: 5px solid rgb(127, 126, 215);
 }
+#discover-nav, #index-nav, #directory-nav, #join-nav{
+    background: rgba(0, 0, 0, 0.196);
+    color: #fff;
+    border-left: 5px solid rgba(127, 126, 215, 0.582);
+}
 input[type=checkbox]:checked ~ nav{
     
     width: 10em;
@@ -268,9 +273,10 @@ input[type=checkbox]:checked ~ nav{
     margin-top: 10px;
 }
 #weather-image{
-    margin: 25px;
+    margin-top: 25px;
     border-radius: 15px;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.706);
+    max-width: 100%;
 }
 .card h2, .weather h2{
     border-bottom: solid 2px rgba(0, 0, 0, 0.800);
@@ -302,11 +308,14 @@ input[type=checkbox]:checked ~ nav{
 }
 .company p{
     color: rgba(0, 0, 0, 0.800);
+    margin-top: 10px;
+
 }
 .company h3{
-    text-align: left;
+    text-align: center;
     border-bottom: solid 2px rgba(0, 0, 0, 0.800);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
     color: rgba(0, 0, 0, 0.800);
 }
 .company a{
@@ -319,6 +328,57 @@ input[type=checkbox]:checked ~ nav{
     border: solid 1px rgb(2, 22, 23);
     border-radius: 8px;
     padding: 2px;
+}
+.company img{
+    padding: 15px;
+    border-radius: 50px;
+    width: 300px;
+}
+#h2-membership{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(23, 56, 76);
+    margin-inline: 90px;
+    color: rgb(2, 32, 33);
+    font-weight: bold;
+}
+.upcoming-events{
+    background: linear-gradient(to top left, rgba(29, 0, 73, 0.701), rgba(0, 39, 63, 0.665), rgba(0, 90, 122, 0.698));
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.upcoming-events h3, .upcoming-events h4, .upcoming-events i{
+    margin-bottom: 25px;
+}
+.upcoming-events i{
+    width: 90%;
+    border-bottom: #fff 1px solid;
+    border-top: #fff 1px solid ;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+#events{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-inline: 25px;
+    margin-top: 15px;
+}
+#events div{
+    border: #fff 1px solid;
+    padding: 15px;
+    background-color: #64646465;
+    
+}
+#events p{
+    color: #fff;
 }
 footer{
     display: flex;
@@ -488,7 +548,7 @@ footer p{
     transition: 1s;
     width: 425px;
 }
-.card-discover {
+.card-discover, #visits-message {
     border: solid 2px rgba(127, 126, 215, 0.512);
     background: linear-gradient(to top left, rgba(151, 108, 216, 0.385), rgba(2, 91, 146, 0.419));
     border-radius: 15px;
@@ -499,6 +559,13 @@ footer p{
     width: auto;
     height: fit-content;
     justify-content: center;
+}
+
+#visits-message{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(2, 22, 23);
 }
 
 .map{
@@ -620,6 +687,11 @@ iframe{
     .form-container{
         width: 100%;
         max-width: 500px;
+    }
+    .company > div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 }
 @media only screen and (max-width:320px) {
