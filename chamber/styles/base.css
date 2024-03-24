@@ -309,7 +309,7 @@ input[type=checkbox]:checked ~ nav{
 .company p{
     color: rgba(0, 0, 0, 0.800);
     margin-top: 10px;
-
+    max-width: 100%;
 }
 .company h3{
     text-align: center;
@@ -332,7 +332,8 @@ input[type=checkbox]:checked ~ nav{
 .company img{
     padding: 15px;
     border-radius: 50px;
-    width: 300px;
+    max-width: fit-content;
+    max-width: 100%;
 }
 #h2-membership{
     text-align: center;
@@ -382,7 +383,7 @@ input[type=checkbox]:checked ~ nav{
 }
 footer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background: rgb(23, 56, 76);
 }
 footer p{
@@ -397,14 +398,10 @@ footer p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-inline: 20px;
     align-items: center;
     color: #ffffffd3;
     margin-top: 20px;
     margin-bottom: 0;
-}
-.foot1 div{
-    width: 45%;
 }
 .foot2{
     padding-top: 20px;
@@ -688,10 +685,18 @@ iframe{
         width: 100%;
         max-width: 500px;
     }
+    #events{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
     .company > div{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
+    }
+    .companies{
+        margin-bottom: 50px;
     }
 }
 @media only screen and (max-width:320px) {
@@ -783,6 +788,18 @@ iframe{
         top: 4%;
         left: 48%;
     }
+    #events{
+        display: flex;
+        flex-direction: column;
+    }
+    .company > div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .companies{
+        margin-bottom: 50px;
+    }
 }
 
 /* directory css */
@@ -803,7 +820,7 @@ iframe{
     border: solid 2px rgba(127, 126, 215, 0.512);
     background: linear-gradient(to top left, rgba(151, 108, 216, 0.385), rgba(2, 91, 146, 0.419));
     border-radius: 15px;
-    width: auto;
+    max-width: 650px;
     height: 100%;
 }
 .cardm h3{

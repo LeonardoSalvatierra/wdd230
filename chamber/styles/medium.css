@@ -78,6 +78,14 @@
         width: 100%;
         max-width: 600px;
     }
+    .company > div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .companies{
+        margin-bottom: 50px;
+    }
 
     /* BANNER */
 

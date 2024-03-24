@@ -228,6 +228,8 @@
         justify-content: space-evenly;
         padding: 0;
         margin: 0;
+        margin-bottom: 50px;
+        
     }
     .company{
         border: solid 2px rgba(127, 126, 215, 0.512);
