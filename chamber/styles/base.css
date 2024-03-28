@@ -272,6 +272,17 @@ input[type=checkbox]:checked ~ nav{
     color: #fff;
     margin-top: 10px;
 }
+#daily-forecast{
+    display: flex;
+    flex-direction: column;
+}
+.weather-daily{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
 #weather-image{
     margin-top: 25px;
     border-radius: 15px;

@@ -210,6 +210,9 @@
         margin-top: 20px;
         margin-bottom: 0px;
     }
+    .weather{
+        max-width: 720px;
+    }
     .card{
         border: solid 2px rgba(127, 126, 215, 0.512);
         background: linear-gradient(to top left, rgba(151, 108, 216, 0.385), rgba(2, 91, 146, 0.419));
